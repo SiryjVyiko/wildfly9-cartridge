@@ -2,7 +2,7 @@ Name: wildfly9
 Cartridge-Short-Name: WILDFLY9
 Display-Name: WildFly Application Server 9.0.1 Final
 Description: "The leading open source Java EE7 application server for enterprise Java applications. Popular development frameworks include Seam, CDI, Weld, and Spring."
-Version: '8.2'
+Version: '9.0'
 License: LGPL
 License-Url: http://www.gnu.org/copyleft/lesser.txt
 Source-Url: https://github.com/SiryjVyiko/wildfly9-cartridge.git
