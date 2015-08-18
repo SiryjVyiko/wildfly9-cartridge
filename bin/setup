@@ -22,7 +22,7 @@ sed -i s/theremustbethesslcertpass/$keypass/ ${OPENSHIFT_WILDFLY9_DIR}/versions/
 fi
 
 if [ -d "${OPENSHIFT_WILDFLY9_DIR}/.ssh" ] ; then
-    mv /opt/repo/.ssh /opt/repo/home/
+    cp -r /opt/repo/.ssh /opt/repo/home/
 fi
 
 [ -f "${OPENSHIFT_WILDFLY9_DIR}/.bash_profile" ] && cp ${OPENSHIFT_WILDFLY9_DIR}/.bash_profile ${OPENSHIFT_WILDFLY9_DIR}/home/ ;
